@@ -1,0 +1,24 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "first application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "author",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.6",
+    "sequelize": "^6.17.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}
